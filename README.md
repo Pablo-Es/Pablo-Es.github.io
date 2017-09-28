@@ -1,7 +1,8 @@
 # Pawel Szyposzynski - portfolio
 
-In this project I will create my portfolio
+## Tytuł projektu : Generator życzeń na różne okazje 
 
+Opis projektu: Na podstawie analizy profilu FB znajomego, system wygeneruje spersonalizowane życzenia na podaną okazję.
 
-Portfolio is available at [pablo-es.github.io](https://pablo-es.github.io/)
+Projekt dostępny na ... [pablo-es.github.io](https://pablo-es.github.io/)
 
