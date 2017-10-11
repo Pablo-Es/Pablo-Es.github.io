@@ -1,0 +1,38 @@
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    @extend %baseRegularFont;
+    font-size: 100%;
+    color: $baseGrey;
+}
+
+a {
+    color: $baseGrey;
+    cursor: pointer; //added due to strange behaviour with rich links
+    text-decoration: none;
+
+   
+}
+
+p,
+li {
+    @extend %baseRegularFont;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+em {
+    font-style: normal;
+}
+
+b,
+strong {
+    font-weight: 600;
+}
