@@ -1,8 +1,14 @@
 .logo {
     margin-right: auto;
-    &--top{
-        font-family: $logoFont;
-        font-size: 50px;
-        
+    &__link {
+        display: flex;
+    }
+    &__text{
+        margin: 0;
+        font-family: $baseFont;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 500;
     }
 }
+

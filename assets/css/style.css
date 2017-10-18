@@ -470,7 +470,7 @@ em {
 
 b,
 strong {
-  font-weight: 600; }
+  font-weight: 700; }
 
 body, p,
 li {
@@ -479,6 +479,9 @@ li {
 
 .image {
   max-width: 100%; }
+  .image--logo {
+    width: 50px;
+    border-radius: 50%; }
 
 .button {
   width: 200px;
@@ -496,9 +499,14 @@ li {
 
 .logo {
   margin-right: auto; }
-  .logo--top {
-    font-family: "Pacifico", cursive;
-    font-size: 50px; }
+  .logo__link {
+    display: flex; }
+  .logo__text {
+    margin: 0;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500; }
 
 .heading {
   margin-top: 0;
@@ -517,59 +525,14 @@ li {
 .article__text--about {
   color: #ffffff; }
 
+.top {
+  padding-top: 20px; }
+
 .banner {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  background: url(../images/banner.jpg) no-repeat center center;
-  background-size: cover; }
-  .banner-article {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 400px; }
-  .banner__heading {
-    margin-bottom: 30px; }
-  .banner__text {
-    margin-bottom: 30px; }
-  .banner__scroll {
-    display: block;
-    position: absolute;
-    left: 50%;
-    bottom: 69px;
-    width: 24px;
-    height: 40px;
-    background: url("../images/scroll.png") no-repeat;
-    animation: scroll 1s infinite; }
-@keyframes scroll {
-  0% {
-    bottom: 69px; }
-  100% {
-    bottom: 59px; } }
-.navigation {
-  position: sticky;
-  top: 0;
-  padding: 40px 0;
-  display: flex;
-  align-items: center; }
-  .navigation__list {
-    display: flex; }
-  .navigation__item {
-    margin: 0 20px; }
-  .navigation__item:first-child {
-    margin-left: 0; }
-  .navigation__item:last-child {
-    margin-right: 0; }
-  .navigation__link {
-    display: block;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 16px;
-    border-top: 3px solid transparent; }
-  .navigation__link:hover {
-    text-decoration: none;
-    border-top: 3px solid #ff6033; }
+  display: flex; }
+
+.menu__list {
+  display: flex; }
 
 .about {
   background-color: #00b1b1;
