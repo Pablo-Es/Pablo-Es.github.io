@@ -412,6 +412,9 @@ hr,
 button {
   border: none; }
 
+figure {
+  margin: 0; }
+
 /* [ common classes ] */
 .relative {
   position: relative; }
@@ -479,7 +482,7 @@ li {
 
 .image {
   max-width: 100%; }
-  .image--logo {
+  .image__logo {
     width: 50px;
     border-radius: 50%; }
 
@@ -500,13 +503,19 @@ li {
 .logo {
   margin-right: auto; }
   .logo__link {
-    display: flex; }
+    display: flex;
+    align-items: center; }
   .logo__text {
     margin: 0;
-    font-family: "Raleway", Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
-    font-weight: 500; }
+    font-weight: 500;
+    line-height: 18px; }
+  .logo__figure {
+    padding-right: 8px; }
+  .logo-text--big {
+    font-size: 18px;
+    line-height: 22px; }
 
 .heading {
   margin-top: 0;
@@ -530,6 +539,26 @@ li {
 
 .banner {
   display: flex; }
+
+.menu {
+  display: flex;
+  align-items: center; }
+  .menu__list-item {
+    padding: 0 15px; }
+  .menu__link {
+    position: relative;
+    padding: 10px 0; }
+  .menu__link:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #303030;
+    transition: width .25s ease-in-out; }
+  .menu__link:hover:before {
+    width: 100%; }
 
 .menu__list {
   display: flex; }
