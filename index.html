@@ -11,35 +11,61 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 </head>
 <body>
-    <header class="top">
-        <div class="container banner">
-            <div class="logo">
-                <a href="#" class="logo__link">
-                    <figure class="logo__figure">
-                        <img class="image image__logo" src="assets/images/me-picture.jpg" alt="Paweł Szyposzyński - Front End Developer">
-                    </figure>
-                    <div class="logo__content">
-                        <p class="logo__text logo-text--big">Paweł <strong>Szyposzyński</strong></p>
-                        <p class="logo__text"><strong>Front End</strong> Developer</p>
+    <section class="banner">
+        <div class="container">
+            <header class="banner__header">
+                    <div class="logo">
+                        <a href="#" class="logo__link">
+                            <figure class="logo__figure">
+                                <img class="image image__logo" src="assets/images/me-picture.jpg" alt="Paweł Szyposzyński - Front End Developer">
+                            </figure>
+                            <div class="logo__content">
+                                <p class="logo__text logo-text--big">Paweł <strong>Szyposzyński</strong></p>
+                                <p class="logo__text"><strong>Front End</strong> Developer</p>
+                            </div>
+
+                        </a>
+
                     </div>
-
-                </a>
-
-            </div>
-            <nav class="menu">
-                <ul class="menu__list">
-                    <li class="menu__list-item"><a class="menu__link" href="#">O mnie</a></li>
-                    <li class="menu__list-item"><a class="menu__link" href="#">Umięjętności</a></li>
-                    <li class="menu__list-item"><a class="menu__link" href="#">Doświadczenie</a></li>
-                    <li class="menu__list-item"><a class="menu__link" href="#">Projekty</a></li>
-                    <li class="menu__list-item"><a class="menu__link" href="#">Kontakt</a></li>
-                </ul>
-            </nav>
+                    <nav class="banner__menu">
+                        <ul class="banner__menu-list">
+                            <li class="banner__menu-list-item"><a class="banner__menu-link" href="#about">O mnie</a></li>
+                            <li class="banner__menu-list-item"><a class="banner__menu-link" href="#">Doświadczenie</a></li>
+                            <li class="banner__menu-list-item"><a class="banner__menu-link" href="#">Projekty</a></li>
+                            <li class="banner__menu-list-item"><a class="banner__menu-link" href="#">Kontakt</a></li>
+                        </ul>
+                    </nav>
+            </header>
+            <article class="banner__article">
+                <h1 class="heading--level-2">
+                    Front End Developer
+                </h1>
+                <p class="banner__article-text">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem
+                    aperiam, eaque ipsa quae ab illo inventore.
+                </p>
+            </article>
         </div>
-    </header>
+        <span class="banner__scroll"></span>
+    </section>
+
     <main>
-        <section class="about">
-            <div class="container"></div>
+        <section id="about" class="about-me">
+            <div class="container">
+                <h2 class="heading heading--level-2 text--center">O mnie</h2>
+                <div class="about-me__container">
+                    <article class="about-me__column">
+                        <h3 class="heading">Kim jestem</h3>
+                        <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non vel, sint nisi possimus sunt veritatis totam velit, esse pariatur in minima nostrum harum dolorum perferendis quasi dolor autem deleniti inventore.</p>
+                        <button class="about-me__btn"><a href="#" class="about-me__button">Pobierz CV</a></button>
+                    </article>
+                    <article class="about-me__column">
+                        <h3 class="heading">Umiejętności</h3>
+                        <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non vel, sint nisi possimus sunt veritatis totam velit, esse pariatur in minima nostrum harum dolorum perferendis quasi dolor autem deleniti inventore.</p>
+                    </article>
+                </div>
+            </div>
         </section>
         <section class="skills">
 
@@ -54,8 +80,10 @@
 
         </section>
     </main>
-        <footer class="bottom">
-            <p class="article-text">Paweł Szyposzyński 2017</p>
+        <footer class="footer">
+            <div class="container">
+                <p class="footer__text text--center">Copyright &copy; Paweł Szyposzyński 2017</p>
+            </div>
         </footer>
 </body>
 </html>

@@ -4,6 +4,9 @@
     font-weight: 300;
     
 }
+%DisplayFlex {
+  display: flex;
+}
 @mixin border {
     border-left:1px solid $lineColor;
     border-right: 1px solid $lineColor;

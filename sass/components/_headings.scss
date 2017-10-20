@@ -1,19 +1,7 @@
 .heading {
-    margin-top: 0;
-    margin-bottom: 35px;
-    &--level-1 {
-        font-size: $headingLevel-1-FontSize;
-    }
+  text-transform: uppercase;
     &--level-2 {
-        font-size: $headingLevel-2-FontSize;
+        font-size: 36px;
     }
-    &--level-3 {
-        font-size: $headingLevel-3-FontSize;
-    }
-    &--heavy {
-        font-weight: 800;
-    }
-    &--bright {
-        color:#ffffff;
-    }
+
 }
