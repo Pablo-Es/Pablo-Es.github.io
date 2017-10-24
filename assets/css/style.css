@@ -528,7 +528,8 @@ li {
 .banner {
   position: relative;
   height: 100vh;
-  background-color: #FAFAFC; }
+  background-image: url("../images/background.jpg");
+  background-size: cover; }
   .banner__header {
     padding-top: 20px; }
   .banner__menu {

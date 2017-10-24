@@ -1,7 +1,8 @@
 .banner {
   position: relative;
   height: 100vh;
-  background-color: #FAFAFC;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
   &__header {
     @extend %DisplayFlex;
     padding-top: 20px;
