@@ -480,14 +480,11 @@ li {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: 300; }
 
-.banner__header, .banner__menu-list {
+.banner__header, .banner__menu-list, .banner__content {
   display: flex; }
 
 .image {
   max-width: 100%; }
-  .image__logo {
-    width: 50px;
-    border-radius: 50%; }
 
 .button {
   width: 200px;
@@ -508,17 +505,14 @@ li {
   .logo__link {
     display: flex;
     align-items: center; }
-  .logo__text {
+  .logo__heading {
     margin: 0;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 500;
-    line-height: 18px; }
-  .logo__figure {
-    padding-right: 8px; }
-  .logo-text--big {
     font-size: 18px;
+    font-weight: 500;
     line-height: 22px; }
+  .logo__span {
+    font-size: 14px;
+    line-height: 18px; }
 
 .heading {
   text-transform: uppercase; }
@@ -528,8 +522,7 @@ li {
 .banner {
   position: relative;
   height: 100vh;
-  background-image: url("../images/background.jpg");
-  background-size: cover; }
+  background: #EAEAEA; }
   .banner__header {
     padding-top: 20px; }
   .banner__menu {
@@ -554,10 +547,7 @@ li {
   .banner__menu-link:hover:before {
     width: 100%; }
   .banner__article {
-    width: 456px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%); }
+    width: 456px; }
   .banner__scroll {
     display: block;
     position: absolute;

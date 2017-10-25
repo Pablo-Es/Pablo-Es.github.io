@@ -4,19 +4,15 @@
         display: flex;
         align-items: center;
     }
-    &__text{
+    &__heading{
         margin: 0;
-        font-size: 14px;
-        text-transform: uppercase;
-        font-weight: 500;
-        line-height: 18px;
-    }
-    &__figure {
-        padding-right: 8px;
-    }
-    &-text--big {
         font-size: 18px;
+        font-weight: 500;
         line-height: 22px;
+    }
+    &__span {
+        font-size: 14px;
+        line-height: 18px;
     }
 
 }
