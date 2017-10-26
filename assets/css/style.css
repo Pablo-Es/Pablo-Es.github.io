@@ -485,6 +485,17 @@ li {
 
 .image {
   max-width: 100%; }
+  .image__banner {
+    position: relative; }
+  .image__banner:after {
+    display: block;
+    position: absolute;
+    background: linear-gradient(rgba(0, 130, 170, 0), #0082aa);
+    top: 0;
+    left: -10px;
+    height: 475px;
+    width: 30px;
+    content: ''; }
 
 .button {
   width: 200px;
@@ -515,15 +526,17 @@ li {
     line-height: 18px; }
 
 .heading {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-weight: 500; }
   .heading--level-2 {
-    font-size: 36px; }
+    font-size: 30px; }
 
 .banner {
   position: relative;
   height: 100vh;
-  background: #EAEAEA; }
+  background: #F9F9F9; }
   .banner__header {
+    margin-bottom: 40px;
     padding-top: 20px; }
   .banner__menu {
     display: flex;
@@ -546,8 +559,9 @@ li {
     transition: width .25s ease-in-out; }
   .banner__menu-link:hover:before {
     width: 100%; }
-  .banner__article {
-    width: 456px; }
+  .banner__content {
+    justify-content: space-between;
+    align-items: center; }
   .banner__scroll {
     display: block;
     position: absolute;

@@ -1,9 +1,10 @@
 .banner {
   position: relative;
   height: 100vh;
-  background: #EAEAEA;
+  background: #F9F9F9;
   &__header {
     @extend %DisplayFlex;
+    margin-bottom: 40px;
     padding-top: 20px;
   }
   &__menu {
@@ -37,9 +38,11 @@
   }
   &__content {
     @extend %DisplayFlex;
+    justify-content: space-between;
+    align-items: center;
   }
   &__article {
-    width: 456px;
+
 
   }
   &__scroll {
