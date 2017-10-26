@@ -74,4 +74,15 @@ figure {margin: 0;}
     margin: 0 auto;
     padding: 0 15px;
 }
+main {
+  & > section {
+    padding: 40px 0;
+  }
+  & > section:nth-child(2n) {
+
+    background: #585858;
+    color: #ffffff;
+  }
+}
+
 

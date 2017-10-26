@@ -1,5 +1,8 @@
 .logo {
     margin-right: auto;
+    &__figure {
+      padding-right: 10px;
+    }
     &__link {
         display: flex;
         align-items: center;

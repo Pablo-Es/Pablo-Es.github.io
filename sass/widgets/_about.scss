@@ -3,13 +3,12 @@
   background-color: #F9F9F9;
   &__container  {
     display: flex;
+    justify-content: space-between;
   }
   &__column {
     flex: 0 50%;
   }
-  &__column:first-child {padding-right: 15px;
-  }
-  &__column:last-child {padding-left: 15px;}
+
   &__btn {padding: 0; }
   &__button {
     display: block;

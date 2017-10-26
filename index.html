@@ -15,7 +15,11 @@
         <div class="container">
             <header class="banner__header">
                     <div class="logo">
+
                         <a href="#" class="logo__link">
+                            <figure class="logo__figure">
+                                <img class="image image__logo" src="assets/images/me-picture.jpg" alt="Paweł Szyposzyński-Front End Developer"/>
+                            </figure>
                             <h1 class="heading logo__heading">Paweł <strong>Szyposzyński</strong><br>
                                 <span class="logo__span"><strong>Junior Front End</strong> Developer</span>
                             </h1>
@@ -32,22 +36,15 @@
                         </ul>
                     </nav>
             </header>
-            <div class="banner__content">
-                <article class="banner__article">
+            <article class="banner__article">
                     <h2 class="heading heading--level-2">
                         Paweł <strong>Szyposzyński</strong> - portfolio <br>
                         Junior <strong>FrontEnd Developer</strong>
                     </h2>
-                </article>
-                <figure class="banner__figure">
-                    <img class="image image__banner" src="assets/images/background-me-328p.jpg" alt="Paweł Szyposzyński - Junior Front End Developer">
-                </figure>
-            </div>
-
+            </article>
         </div>
         <span class="banner__scroll"></span>
     </section>
-
     <main>
         <section id="about" class="about-me">
             <div class="container">
@@ -59,10 +56,9 @@
                             Fan muzyki i nowych technologii. Mam szeroki zakres zainteresowań. Lubię podróżować i poznawać nowe miejsce, interesuję się także psychologią.  Od kilku lat próbuję rozwijać swoje umięjetności w tworzeniu stron internetowych oraz programowaniu we Front Endzie. W wolnych chwilach gram na perkusji oraz zdobywam wiedzę na temat produkcji muzyki elektronicznej.</p>
                         <button class="about-me__btn"><a href="#" class="about-me__button">Pobierz CV</a></button>
                     </article>
-                    <article class="about-me__column">
-                        <h3 class="heading">Umiejętności</h3>
-                        <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non vel, sint nisi possimus sunt veritatis totam velit, esse pariatur in minima nostrum harum dolorum perferendis quasi dolor autem deleniti inventore.</p>
-                    </article>
+                    <figure class="banner__figure">
+                            <img class="image image__banner" src="assets/images/background-me-328p.jpg" alt="Paweł Szyposzyński - Junior Front End Developer">
+                        </figure>
                 </div>
             </div>
         </section>
@@ -85,16 +81,21 @@
         <section id="projects" class="projects-sec">
             <div class="container">
                 <h2 class="heading heading--level-2 text--center">Moje projekty</h2>
-                <article>
-                    <h3>Strona Portfolio</h3>
-                    <figure>
-                        <img src="assets/images/portfolio.jpg" height="185" width="396"/></figure>
-                <article>
-                    <h3>Projekt wykonany w zespole w ramach kursu Junior Front End Developer - InfoShare Academy</h3>
-                    <figure>
-                        <img src="assets/images/fc4.jpg" height="296" width="618"/>
-                    </figure>
-                </article>
+                <section class="projects-sec__container">
+                    <article class="projects-sec__article">
+                        <h3>Strona Portfolio</h3>
+                        <figure>
+                            <img class="image image__projects" src="assets/images/portfolio.jpg"/>
+                        </figure>
+                    </article>
+                    <article class="projects-sec__article">
+                        <h3>Projekt wykonany w zespole w ramach kursu Junior Front End Developer - InfoShare Academy</h3>
+                        <figure>
+                            <img class="image image__projects" src="assets/images/fc4.jpg"/>
+                        </figure>
+                    </article>
+                </section>
+
 
             </div>
         </section>
