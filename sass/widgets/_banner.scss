@@ -4,8 +4,6 @@
   background: #F9F9F9 url("../images/P1000613.JPG") no-repeat;
   background-size: cover;
   filter: sepia(70%);
-
-
   &__header {
     @extend %DisplayFlex;
     margin-bottom: 40px;
