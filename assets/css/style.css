@@ -494,9 +494,6 @@ li {
   .image__logo {
     width: 50px;
     border-radius: 50%; }
-  .image__projects {
-    width: 396px;
-    height: 175px; }
 
 .button {
   width: 200px;
@@ -537,7 +534,9 @@ li {
 .banner {
   position: relative;
   height: 100vh;
-  background: #F9F9F9; }
+  background: #F9F9F9 url("../images/P1000613.JPG") no-repeat;
+  background-size: cover;
+  filter: sepia(70%); }
   .banner__header {
     margin-bottom: 40px;
     padding-top: 20px; }
@@ -602,7 +601,11 @@ li {
 
 .projects-sec__container {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-between;
+  flex-flow: wrap; }
+.projects-sec__article {
+  flex: 0 33.333%;
+  padding: 0 10px; }
 
 .footer {
   padding: 5px 0;

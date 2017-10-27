@@ -1,7 +1,11 @@
 .banner {
   position: relative;
   height: 100vh;
-  background: #F9F9F9;
+  background: #F9F9F9 url("../images/P1000613.JPG") no-repeat;
+  background-size: cover;
+  filter: sepia(70%);
+
+
   &__header {
     @extend %DisplayFlex;
     margin-bottom: 40px;
@@ -10,6 +14,7 @@
   &__menu {
     display: flex;
     align-items: center;
+
   }
   &__menu-list {
     @extend %DisplayFlex;
