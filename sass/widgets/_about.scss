@@ -4,12 +4,23 @@
   &__container  {
     display: flex;
     justify-content: space-between;
+    @include small-screen {
+      flex-flow: column;
+    }
   }
   &__column {
     flex: 0 50%;
+    @include small-screen {
+      flex:100%;
+      margin-bottom: 30px;
+    }
   }
 
-  &__btn {padding: 0; }
+  &__btn {padding: 0;
+      display: block;
+      margin: 0 auto;
+
+  }
   &__button {
     display: block;
     padding: 15px 30px;
@@ -19,5 +30,8 @@
     font-size: 18px;
     font-weight: 500;
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+  }
+  &__figure {
+    text-align: center;
   }
 }
