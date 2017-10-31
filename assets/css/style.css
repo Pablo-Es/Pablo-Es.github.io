@@ -612,6 +612,10 @@ li {
   .about-me__figure {
     text-align: center; }
 
+.experience-sec__list {
+  display: flex;
+  flex-flow: wrap; }
+
 .projects-sec__container {
   display: flex;
   justify-content: space-between;
