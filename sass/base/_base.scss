@@ -68,12 +68,7 @@ figure {margin: 0; text-align: center;}
         clear: both;
     }
 }
-.container {
-    
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
+.container {margin: 0 auto;}
 main {
   & > section {
     padding: 40px 0;
