@@ -3,4 +3,11 @@
     display: flex;
     flex-flow: wrap;
   }
+  &__item {
+    margin-bottom: 20px;
+  }
+  &__span {
+    display: block;
+    margin-bottom: 10px;
+  }
 }

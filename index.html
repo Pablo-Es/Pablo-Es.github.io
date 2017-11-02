@@ -13,12 +13,12 @@
 <body>
     <section class="banner">
         <div class="container">
-            <header class="banner__header">
-                    <div class="logo">
+            <header class="banner__header row">
+                    <div class="logo col-md-4">
 
                         <a href="#" class="logo__link">
                             <figure class="logo__figure">
-                                <img class="image image__logo" src="assets/images/me-picture.jpg" alt="Paweł Szyposzyński-Front End Developer"/>
+                                <img class="image__logo" src="assets/images/me-picture.jpg" alt="Paweł Szyposzyński-Front End Developer"/>
                             </figure>
                             <h1 class="heading logo__heading">Paweł <strong>Szyposzyński</strong><br>
                                 <span class="logo__span"><strong>Junior Front End</strong> Developer</span>
@@ -27,7 +27,9 @@
                         </a>
 
                     </div>
-                    <nav class="banner__menu">
+                    <nav class="banner__menu col-md-8">
+                        <label class="banner__menu-trigger" for="open_navigation"></label>
+                        <input class="banner__menu-trigger-checkbox" type="checkbox" id="open_navigation"/>
                         <ul class="banner__menu-list">
                             <li class="banner__menu-list-item"><a class="banner__menu-link" href="#about">O mnie</a></li>
                             <li class="banner__menu-list-item"><a class="banner__menu-link" href="#experience">Doświadczenie</a></li>
@@ -66,22 +68,28 @@
             <div class="container">
                 <h2 class="heading heading--level-2 text--center">Doświadczenie</h2>
                 <article class="experience-sec__article">
-                    <ul class="experience-sec__list">
-                        <li class="experience-sec__item">HTML5
-                            <img src="assets/images/HTML5_Logo_64.png" height="64" width="64"/></li>
-                        <li class="experience-sec__item">CSS3
-                            <img src="assets/images/CSS3_logo_and_wordmark.svg.png" height="90" width="64"/></li>
-                        <li class="experience-sec__item">Podstawy programwania JavaScript
-                            <img src="assets/images/64px-JavaScript-logo.png" height="64" width="64"/></li>
-                        <li class="experience-sec__item">Znajomość systemu kontroli wersji Git
-                            <img src="assets/images/Git-Logo-2Color.png" height="380" width="910"/></li>
-                        <li class="experience-sec__item">Bootstrap
-                            <img src="assets/images/Boostrap_logo.svg.png" height="64" width="64"/></li>
-                        <li class="experience-sec__item">Rest API
-                            <img src="assets/images/icons8-rest-api.png"
-                                                                      height="50" width="50"/></li>
-                        <li class="experience-sec__item">React JS<img src="assets/images/logo.png" height="128"
-                                                                      width="128"/></li>
+                    <ul class="experience-sec__list text--center row">
+                        <li class="experience-sec__item col-xs-12 col-md-4">
+                            <span class="experience-sec__span">HTML5</span>
+                            <img src="assets/images/HTML5_Logo_64.png"/></li>
+                        <li class="experience-sec__item col-xs-12 col-md-4">
+                      <span class="experience-sec__span"> CSS3</span>
+                            <img src="assets/images/CSS3_logo.png"/></li>
+                        <li class="experience-sec__item col-xs-12 col-md-4">
+                            <span class="experience-sec__span">Podstawy programwania w JavaScript</span>
+                            <img src="assets/images/64px-JavaScript-logo.png"/></li>
+                        <li class="experience-sec__item col-xs-12 col-md-4">
+                            <span class="experience-sec__span">Znajomość systemu kontroli wersji Git</span>
+                            <img src="assets/images/Git-Logo-2Color.png"/></li>
+                        <li class="experience-sec__item col-xs-12 col-md-4">
+                           <span class="experience-sec__span">Bootstrap</span>
+                            <img src="assets/images/Boostrap_logo.svg.png"/></li>
+                        <li class="experience-sec__item col-xs-12 col-md-4">
+                          <span class="experience-sec__span">Rest API</span>
+                            <img src="assets/images/icons8-rest-api.png"/></li>
+                        <li class="experience-sec__item col-xs-12 col-md-4">
+                            <span class="experience-sec__span">React JS</span>
+                            <img src="assets/images/logo.png"/></li>
                     </ul>
                 </article>
             </div>
@@ -126,6 +134,7 @@
                         <p class="projects-sec__text">Projekt wykonany w zespole w ramach kursu Junior Front End Developer - InfoShare Academy. Generator życzeń, jest sprzężony z Facebookiem i umożliwia szybko i sprawnie wysyłać spersonalizowane życzenia urodzinowe.</p>
                     </article>
                 </section>
+            </div>
         </section>
         <section id="contact" class="contact-sec">
             <div class="container">

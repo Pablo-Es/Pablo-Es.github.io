@@ -117,7 +117,7 @@
 
 @media only screen and (min-width: 576px) {
   .container {
-    width: 546px;
+    //width: 576px;
   }
 
   .col-sm,
@@ -223,9 +223,9 @@
     max-width: 100%;
   }
 }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 769px) {
     .container {
-      width: 738px;
+      //width: 768px;
     }
 
     .col-md,
@@ -333,7 +333,7 @@
   }
   @media only screen and (min-width: 992px) {
     .container {
-      width: 962px;
+      //width: 992px;
     }
 
     .col-lg,
@@ -441,7 +441,7 @@
   }
 @media only screen and (min-width: 1200px) {
   .container {
-    width: 1170px;
+    //width: 1200px;
   }
 
   .col-xl,

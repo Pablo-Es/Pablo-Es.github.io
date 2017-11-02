@@ -68,7 +68,11 @@ figure {margin: 0; text-align: center;}
         clear: both;
     }
 }
-.container {margin: 0 auto;}
+.container {margin: 0 auto;
+max-width: 1200px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
 main {
   & > section {
     padding: 40px 0;
