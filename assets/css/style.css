@@ -1119,6 +1119,9 @@ li {
     .projects-sec__article {
       flex: 100%; } }
 
+.contact-sec__link {
+  color: #ffffff; }
+
 .footer {
   padding: 5px 0;
   background-color: #303030; }
