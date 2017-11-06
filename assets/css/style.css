@@ -965,20 +965,19 @@ li {
 .logo__link {
   display: flex;
   align-items: center; }
-.logo__heading {
-  margin: 0;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 22px; }
 .logo__span {
   font-size: 14px;
   line-height: 18px; }
 
 .heading {
   text-transform: uppercase;
-  font-weight: 500; }
+  font-weight: 600; }
   .heading--level-2 {
     font-size: 30px; }
+  .heading--logo {
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px; }
 
 .banner {
   position: relative;
@@ -1031,7 +1030,7 @@ li {
   .banner__menu-link {
     position: relative;
     padding: 10px 0;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase; }
     @media (max-width: 768px) {
       .banner__menu-link {
@@ -1061,7 +1060,7 @@ li {
     bottom: 69px;
     width: 24px;
     height: 40px;
-    background: url(../images/scroll.png) no-repeat;
+    background: url(../images/scroll-white.png) no-repeat;
     animation: scroll 1s infinite; }
 @keyframes scroll {
   0% {

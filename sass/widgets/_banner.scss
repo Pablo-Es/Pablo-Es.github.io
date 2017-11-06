@@ -65,11 +65,13 @@
     &__menu-link {
       position: relative;
       padding: 10px 0;
-      font-weight: 500;
+      font-weight: 600;
       text-transform: uppercase;
-      @include small-screen{
+      @include small-screen {
         color: #ffffff;
+
       }
+
     }
     &__menu-link:before {
       position: absolute;
@@ -101,7 +103,7 @@
       bottom: 69px;
       width: 24px;
       height: 40px;
-      background: url(../images/scroll.png) no-repeat;
+      background: url(../images/scroll-white.png) no-repeat;
       animation: scroll 1s infinite;
     }
     @keyframes scroll {

@@ -1,8 +1,17 @@
 .heading {
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
     &--level-2 {
         font-size: 30px;
     }
+  &--logo {
+
+      margin: 0;
+      font-size: 18px;
+      line-height: 22px;
+
+
+
+  }
 
 }
