@@ -448,6 +448,14 @@ main > section:nth-child(2n) {
   background: #585858;
   color: #ffffff; }
 
+.nav-item {
+  padding-left: .5rem;
+  padding-right: .5rem; }
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0; } }
 html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-touch-callout: none;
@@ -485,8 +493,11 @@ li {
 .image {
   max-width: 100%; }
   .image__logo {
-    width: 50px;
+    width: 45px;
     border-radius: 50%; }
+    @media (min-width: 576px) {
+      .image__logo {
+        width: 50px; } }
 
 .button {
   width: 200px;
@@ -510,8 +521,11 @@ li {
 .logo__link:hover {
   text-decoration: none; }
 .logo__span {
-  font-size: 14px;
+  font-size: 0.7rem;
   line-height: 18px; }
+  @media (min-width: 576px) {
+    .logo__span {
+      font-size: 14px; } }
 
 .heading {
   text-transform: uppercase;
@@ -520,8 +534,11 @@ li {
     font-size: 30px; }
   .heading--logo {
     margin: 0;
-    font-size: 18px;
-    line-height: 22px; }
+    font-size: .9rem; }
+    @media (min-width: 576px) {
+      .heading--logo {
+        font-size: 18px;
+        line-height: 22px; } }
 
 .banner {
   position: relative;

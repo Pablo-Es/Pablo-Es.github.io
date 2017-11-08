@@ -7,8 +7,12 @@
   &--logo {
 
       margin: 0;
+      font-size: .9rem;
+
+    @media  (min-width: 576px) {
       font-size: 18px;
       line-height: 22px;
+    }
 
 
 

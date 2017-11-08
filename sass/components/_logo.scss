@@ -12,8 +12,13 @@
     }
 
     &__span {
-        font-size: 14px;
-        line-height: 18px;
+
+            font-size: 0.7rem;
+            line-height: 18px;
+        @media (min-width: 576px) {
+            font-size: 14px;
+        }
+
     }
 
 }
