@@ -1,13 +1,14 @@
 .logo {
-    @include small-screen {
-        display: none;
-    }
+
     &__figure {
       padding-right: 10px;
     }
     &__link {
         display: flex;
         align-items: center;
+    }
+    &__link:hover {
+        text-decoration: none;
     }
 
     &__span {

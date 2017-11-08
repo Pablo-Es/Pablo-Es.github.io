@@ -1,14 +1,10 @@
 .projects-sec {
   &__container {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: wrap;
+
   }
   &__article {
-    flex: 0 33.333%;
+
     padding: 0 10px;
-    @include small-screen {
-      flex:100%;
-    }
+
   }
 }
