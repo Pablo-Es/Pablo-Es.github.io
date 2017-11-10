@@ -473,6 +473,9 @@ a {
   cursor: pointer;
   text-decoration: none; }
 
+a:hover {
+  text-decoration: none; }
+
 p,
 li {
   font-size: 17px;
@@ -528,6 +531,7 @@ li {
       font-size: 14px; } }
 
 .heading {
+  margin-bottom: 20px;
   text-transform: uppercase;
   font-weight: 600; }
   .heading--level-2 {
@@ -591,7 +595,7 @@ li {
   .about-me__btn {
     padding: 0;
     display: block;
-    margin: 0 auto; }
+    margin: 20px auto; }
   .about-me__button {
     display: block;
     padding: 15px 30px;
