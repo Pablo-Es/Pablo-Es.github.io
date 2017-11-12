@@ -481,11 +481,18 @@ li {
   font-size: 17px;
   line-height: 1.7; }
 
+p {
+  margin: 1.17em 0; }
+
 em {
   font-style: normal; }
 
 b,
 strong {
+  font-weight: 700; }
+
+h3 {
+  font-size: 1.17em;
   font-weight: 700; }
 
 body, p,
@@ -531,7 +538,7 @@ li {
       font-size: 14px; } }
 
 .heading {
-  margin-bottom: 20px;
+  margin-bottom: 0.83em;
   text-transform: uppercase;
   font-weight: 600; }
   .heading--level-2 {
@@ -618,7 +625,8 @@ li {
   margin-bottom: 10px; }
 
 .projects-sec__article {
-  padding: 0 10px; }
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 .contact-sec__link {
   color: #ffffff; }

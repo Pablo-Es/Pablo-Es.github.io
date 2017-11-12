@@ -29,12 +29,18 @@ li {
   font-size: 17px;
   line-height: 1.7;
 }
-
+p {
+  margin: 1.17em 0;
+}
 em {
   font-style: normal;
 }
 
 b,
 strong {
+  font-weight: 700;
+}
+h3 {
+  font-size: 1.17em;
   font-weight: 700;
 }
