@@ -26,10 +26,13 @@
       bottom: 0;
       height: 2px;
       width: 0;
-      background-color: #303030;
+     background-color: #ffffff;
       transition: width .25s ease-in-out;
-
+      @media (min-width: 992px) {
+        background-color: #303030;
+      }
     }
+
     &__menu-link:hover:before {
       width: 100%;
     }
