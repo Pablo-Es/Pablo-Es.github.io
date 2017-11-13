@@ -2,4 +2,8 @@
   &__link {
     color: #ffffff;
   }
+  &__link:hover {
+  color: inherit;
+    text-decoration: underline;
+  }
 }
