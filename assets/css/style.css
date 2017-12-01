@@ -642,6 +642,8 @@ li {
 
 .experience-sec__item {
   margin-bottom: 20px; }
+  .experience-sec__item img {
+    height: 64px; }
 .experience-sec__span {
   display: block;
   margin-bottom: 10px; }
