@@ -568,7 +568,7 @@ li {
 .banner {
   position: relative;
   height: 100vh;
-  background: #F9F9F9 url("../images/P1000613.JPG") no-repeat;
+  background: #F9F9F9 url("../images/banner-bg.jpg") no-repeat;
   background-size: cover;
   filter: sepia(70%); }
   .banner__header {
