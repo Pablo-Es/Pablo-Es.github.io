@@ -20,8 +20,3 @@
 %BoxShadow {
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
 }
-@mixin small-screen {
-  @media (max-width: $md) {
-    @content;
-  }
-}

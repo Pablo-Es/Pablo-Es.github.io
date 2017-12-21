@@ -1,7 +1,7 @@
 
 @import "base/normalize";
-@import "base/grid";
 @import "base/base";
+@import "base/custom-bootstrap";
 // Variables
 @import "helpers/colors";
 @import "helpers/variables";
@@ -12,7 +12,7 @@
 @import "components/button";
 @import "components/logo";
 @import "components/headings";
-@import "components/article";
+
 
 // widgets
 @import "widgets/banner";
@@ -21,4 +21,4 @@
 @import "widgets/projects";
 @import "widgets/contact";
 @import "widgets/footer";
-// Third-party
+@import "widgets/scroll";

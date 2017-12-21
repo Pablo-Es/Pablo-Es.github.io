@@ -5,154 +5,189 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css?v=1" media="screen"/>
     <title>Paweł Szyposzyński - Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+
 </head>
 <body>
-    <section class="banner">
-        <div class="container">
-            <header class="banner__header row">
-                    <div class="logo col-md-3">
-
-                        <a href="#" class="logo__link">
-                            <figure class="logo__figure">
-                                <img class="image__logo" src="assets/images/me-picture.jpg" alt="Paweł Szyposzyński-Front End Developer"/>
-                            </figure>
-                            <h1 class="heading heading--logo">Paweł Szyposzyński<br>
-                                <span class="logo__span">Junior Front End Developer</span>
-                            </h1>
-
-                        </a>
-
-                    </div>
-                    <nav class="banner__menu col-md-9">
-                        <label class="banner__menu-trigger" for="open_navigation"></label>
-                        <input class="banner__menu-trigger-checkbox" type="checkbox" id="open_navigation"/>
-                        <ul class="banner__menu-list">
-                            <li class="banner__menu-list-item"><a class="banner__menu-link" href="#about">O mnie</a></li>
-                            <li class="banner__menu-list-item"><a class="banner__menu-link" href="#experience">Doświadczenie</a></li>
-                            <li class="banner__menu-list-item"><a class="banner__menu-link" href="#projects">Projekty</a></li>
-                            <li class="banner__menu-list-item"><a class="banner__menu-link" href="#contact">Kontakt</a></li>
-                        </ul>
-                    </nav>
-            </header>
-            <article class="banner__article">
-                    <h2 class="heading heading--level-2">
-                        Paweł Szyposzyński <br>
-                        Junior FrontEnd Developer
-                    </h2>
-            </article>
-        </div>
-        <span class="banner__scroll"></span>
-    </section>
-    <main>
-        <section id="about" class="about-me">
-            <div class="container">
-                <h2 class="heading heading--level-2 text--center">O mnie</h2>
-                <div class="about-me__container">
-                    <article class="about-me__column">
-                        <h3 class="heading">Kim jestem</h3>
-                        <p class="article__text">Elektronik z wykształcenia, informatyk z pasji i zaintersowania.
-                            Fan muzyki i nowych technologii. Mam szeroki zakres zainteresowań. Lubię podróżować i poznawać nowe miejsca, interesuję się także psychologią.  Od kilku lat rozwijam swoje umięjetności w zakresie tworzenia stron internetowych oraz programowaniu w JavaScript. W wolnych chwilach gram na perkusji oraz zdobywam wiedzę na temat produkcji muzyki elektronicznej.</p>
-                        <button class="about-me__btn"><a href="assets/Pawel-Szyposzynski-cv.pdf" class="about-me__button" target="_blank">Pobierz CV</a></button>
-                        <h3 class="heading">Znajdziesz mnie na:</h3>
-                        <div class="about-me__social-media row">
-                            <figure class="col-md-2 col-xs-12 about-me__figure--social"><a href="https://github.com/Pablo-Es" target="_blank"><img src="assets/images/GitHub-Mark-64px.png" alt="Paweł Szyposzyński - github projects"/></a></figure>
-                            <figure class="col-md-2 col-xs-12 about-me__figure--social"><a href="https://www.linkedin.com/in/pawel-szyposzynski/" target="_blank"><img src="assets/images/In-Black-66px-R.png" alt="Paweł Szyposzyński - linkedin"/></a></figure>
-                        </div>
-
-
-                    </article>
-                    <figure class="about-me__figure">
-                            <img class="image image__banner" src="assets/images/background-me-328p.jpg" alt="Paweł Szyposzyński - Junior Front End Developer">
+<section class="banner">
+        <header class="banner__header">
+            <nav class="navbar navbar-light navbar-expand-lg">
+                <div class="container">
+                <div class="logo">
+                    <a href="#" class="logo__link">
+                        <figure class="logo__figure">
+                            <img class="image__logo" src="assets/images/me-picture.jpg"
+                                 alt="Paweł Szyposzyński-Front End Developer"/>
                         </figure>
+                        <h1 class="heading heading--logo">Paweł Szyposzyński<br>
+                            <span class="logo__span">Junior Front End Developer</span>
+                        </h1>
+                    </a>
                 </div>
-            </div>
-        </section>
-        <section id="experience" class="experience-sec">
-            <div class="container">
-                <h2 class="heading heading--level-2 text--center">Doświadczenie</h2>
-                <article class="experience-sec__article">
-                    <ul class="experience-sec__list text--center row">
-                        <li class="experience-sec__item col-xs-12 col-md-4">
-                            <span class="experience-sec__span">HTML5</span>
-                            <img src="assets/images/HTML5_logo_and_wordmark.svg"/></li>
-                        <li class="experience-sec__item col-xs-12 col-md-4">
-                      <span class="experience-sec__span"> CSS3</span>
-                            <img src="assets/images/CSS3_logo_and_wordmark.svg"/></li>
-                        <li class="experience-sec__item col-xs-12 col-md-4">
-                            <span class="experience-sec__span">Podstawy programwania w JavaScript</span>
-                            <img src="assets/images/64px-JavaScript-logo.png"/></li>
-                        <li class="experience-sec__item col-xs-12 col-md-4">
-                            <span class="experience-sec__span">Znajomość systemu kontroli wersji Git</span>
-                            <img src="assets/images/Git-logo-black.svg"/></li>
-                        <li class="experience-sec__item col-xs-12 col-md-4">
-                           <span class="experience-sec__span">Bootstrap</span>
-                            <img src="assets/images/Boostrap_logo.svg.png"/></li>
-                        <li class="experience-sec__item col-xs-12 col-md-4">
-                          <span class="experience-sec__span">Rest API</span>
-                            <img src="assets/images/icons8-rest-api.png"/></li>
-                        <li class="experience-sec__item col-xs-12 col-md-4">
-                            <span class="experience-sec__span">React JS</span>
-                            <img src="assets/images/logo.png"/></li>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto text--center">
+                        <li class="nav-item"><a class="nav-link banner__menu-link" href="#about">O mnie</a></li>
+                        <li class="nav-item"><a class="nav-link banner__menu-link" href="#experience">Umiejętności</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link banner__menu-link" href="#projects">Projekty</a></li>
+                        <li class="nav-item"><a class="nav-link banner__menu-link" href="#contact">Kontakt</a></li>
                     </ul>
+                </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+        <article class="banner__article">
+            <h2 class="heading heading--level-2">
+                Paweł Szyposzyński <br>
+                Junior FrontEnd Developer
+            </h2>
+        </article>
+    </div>
+    <span class="banner__scroll"></span>
+</section>
+<main>
+    <section id="about" class="about-me">
+        <div class="container">
+            <h2 class="heading heading--level-2 text--center">O mnie</h2>
+            <div class="row">
+                <article class="col-md-7">
+                    <h3 class="heading">Kim jestem</h3>
+                    <p class="about-me__text">Elektronik z wykształcenia, informatyk z pasji i zaintersowania.
+                        Fan muzyki i nowych technologii. Mam szeroki zakres zainteresowań. Lubię podróżować i poznawać
+                        nowe miejsca, interesuję się także psychologią. Od kilku lat rozwijam swoje umięjetności w
+                        zakresie tworzenia stron internetowych oraz programowania w języku JavaScript. W wolnych chwilach gram
+                        na perkusji oraz zdobywam wiedzę na temat produkcji muzyki elektronicznej.</p>
+                    <p class="about-me__text">Jestem otwarty na nawiązanie współpracy przy realizacji wszelkich projektów.</p>
+                    <h3 class="heading">Znajdziesz mnie na:</h3>
+                    <div class="row">
+                        <figure class="about-me__figure--social col-md-2"><a href="https://github.com/Pablo-Es"
+                                                                             target="_blank"><img
+                                src="assets/images/GitHub-Mark-64px.png"
+                                alt="Paweł Szyposzyński - github projects"/></a></figure>
+                        <figure class="about-me__figure--social col-md-2"><a
+                                href="https://www.linkedin.com/in/pawel-szyposzynski/" target="_blank"><img
+                                src="assets/images/In-Black-66px-R.png" alt="Paweł Szyposzyński - linkedin"/></a>
+                        </figure>
+                    </div>
+
+                </article>
+                <figure class="about-me__figure col-md-4 ml-auto">
+                    <img class="image image__banner" src="assets/images/background-me-328p.jpg"
+                         alt="Paweł Szyposzyński - Junior Front End Developer">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <section id="experience" class="experience-sec">
+        <div class="container">
+            <h2 class="heading heading--level-2 text--center">Umiejętności</h2>
+                <ul class="text--center row">
+                    <li class="experience-sec__item col-md-3">
+                        <span class="experience-sec__span">HTML5</span>
+                        <img src="assets/images/HTML5_logo_and_wordmark.svg"/></li>
+                    <li class="experience-sec__item col-md-3">
+                        <span class="experience-sec__span"> CSS3</span>
+                        <img src="assets/images/CSS3_logo_and_wordmark.svg"/></li>
+                    <li class="experience-sec__item col-md-3">
+                        <span class="experience-sec__span">Podstawy programwania w JavaScript</span>
+                        <img src="assets/images/64px-JavaScript-logo.png"/></li>
+                    <li class="experience-sec__item col-md-3">
+                        <span class="experience-sec__span">Znajomość systemu kontroli wersji Git</span>
+                        <img src="assets/images/Git-logo-black.svg"/></li>
+                    <li class="experience-sec__item col-md-3">
+                        <span class="experience-sec__span">Bootstrap</span>
+                        <img src="assets/images/Boostrap_logo.svg.png"/></li>
+                    <li class="experience-sec__item col-md-3">
+                        <span class="experience-sec__span">Rest API</span>
+                        <img src="assets/images/icons8-rest-api.png"/></li>
+                    <li class="experience-sec__item col-md-3">
+                        <span class="experience-sec__span">React JS</span>
+                        <img src="assets/images/logo.png"/></li>
+                </ul>
+        </div>
+    </section>
+    <section id="projects" class="projects-sec">
+        <div class="container">
+            <h2 class="heading heading--level-2 text--center">Moje projekty</h2>
+            <div class="row">
+                <article class="projects-sec__article col-md-4">
+                    <h3 class="text--center">Strona - Talex</h3>
+                    <figure>
+                        <a href="http://talex-sj.pl/"><img class="image" src="assets/images/talex-screenShot.jpg"/></a>
+                    </figure>
+                    <p class="projects-sec__text">Strona wykonana w oparciu o projekt PSD. Użyte technologie CSS3,
+                        HTML5</p>
+                </article>
+                <article class="projects-sec__article col-md-4">
+                    <h3 class="text--center">Pokazy zwierząt</h3>
+                    <figure>
+                        <a href="http://www.pokazyzwierzat.pl/"><img class="image"
+                                                                     src="assets/images/pokazy-screenshot.jpg"/></a>
+                    </figure>
+                    <p class="projects-sec__text">Strona WWW firmy organizującej pokazy zwierząt egzotycznych. Użyte
+                        technologie CSS3, HTML5, CMS Wordpress</p>
+                </article>
+                <article class="projects-sec__article col-md-4">
+                    <h3 class="text--center">Strona - Kancelaria Radcy Prawnego</h3>
+                    <figure>
+                        <a href="http://www.radca-swidwin.pl"><img class="image"
+                                                                   src="assets/images/kancelaria-screenshot.jpg"/></a>
+                    </figure>
+                    <p class="projects-sec__text">Strona - wizytówka kancelarii radcy prawnego Kamila Szyposzyńskiego.
+                        Strona wykonana w oparciu o Bootstrap</p>
+                </article>
+                <article class="projects-sec__article col-md-6">
+                    <h3 class="text--center">Strona Portfolio</h3>
+                    <figure>
+                        <img class="image" src="assets/images/portfolio.jpg"/>
+                    </figure>
+                    <p class="projects-sec__text">Moja strona portfolio, którą właśnie oglądasz</p>
+                </article>
+                <article class="projects-sec__article col-md-6">
+                    <h3 class="text--center">Generator życzeń</h3>
+                    <figure>
+                        <a href="http://fantastyczna-czworka.jfdz7.is-academy.pl/"><img class="image" src="assets/images/fc4.jpg"/></a>
+                    </figure>
+                    <p class="projects-sec__text">Projekt wykonany w zespole w ramach kursu Junior Front End Developer -
+                        InfoShare Academy. Generator życzeń, jest sprzężony z Facebookiem i umożliwia szybko i sprawnie
+                        wysyłać spersonalizowane życzenia urodzinowe.</p>
                 </article>
             </div>
-        </section>
-        <section id="projects" class="projects-sec">
-            <div class="container">
-                <h2 class="heading heading--level-2 text--center">Moje projekty</h2>
-                <section class="projects-sec__container">
-                    <article class="projects-sec__article">
-                        <h3 class="text--center">Strona - Talex</h3>
-                        <figure>
-                            <a href="http://talex-sj.pl/"><img class="image" src="assets/images/talex-screenShot.jpg"/></a>
-                        </figure>
-                        <p class="projects-sec__text">Strona wykonana w oparciu o projekt PSD. Użyte technologie CSS3, HTML5</p>
-                    </article>
-                    <article class="projects-sec__article">
-                        <h3 class="text--center">Pokazy zwierząt</h3>
-                        <figure>
-                            <a href="http://www.pokazyzwierzat.pl/"><img class="image" src="assets/images/pokazy-screenshot.jpg"/></a>
-                        </figure>
-                        <p class="projects-sec__text">Strona WWW firmy organizującej pokazy zwierząt egzotycznych. Użyte technologie CSS3, HTML5, CMS Wordpress</p>
-                    </article>
-                    <article class="projects-sec__article">
-                        <h3 class="text--center">Strona - Kancelaria Radcy Prawnego</h3>
-                        <figure>
-                            <a href="http://www.radca-swidwin.pl"><img class="image" src="assets/images/kancelaria-screenshot.jpg"/></a>
-                        </figure>
-                        <p class="projects-sec__text">Strona - wizytówka kancelarii radcy prawnego Kamila Szyposzyńskiego. Strona wykonana w oparciu o Bootstrap</p>
-                    </article>
-                    <article class="projects-sec__article">
-                        <h3 class="text--center">Strona Portfolio</h3>
-                        <figure>
-                            <img class="image" src="assets/images/portfolio.jpg"/>
-                        </figure>
-                        <p class="projects-sec__text">Moja strona portfolio, którą właśnie oglądasz</p>
-                    </article>
-                    <article class="projects-sec__article">
-                        <h3 class="text--center">Generator życzeń</h3>
-                        <figure>
-                            <a href="#"><img class="image" src="assets/images/fc4.jpg"/></a>
-                        </figure>
-                        <p class="projects-sec__text">Projekt wykonany w zespole w ramach kursu Junior Front End Developer - InfoShare Academy. Generator życzeń, jest sprzężony z Facebookiem i umożliwia szybko i sprawnie wysyłać spersonalizowane życzenia urodzinowe.</p>
-                    </article>
-                </section>
-            </div>
-        </section>
-        <section id="contact" class="contact-sec">
-            <div class="container">
-                <h2 class="heading heading--level-2 text--center"><a class="contact-sec__link" href="mailto:paul.szyposzynski@gmail.com">Napisz do mnie</a></h2>
-            </div>
-        </section>
-    </main>
-        <footer class="footer">
-            <div class="container">
-                <p class="footer__text text--center">Copyright &copy; Paweł Szyposzyński 2017</p>
-            </div>
-        </footer>
+        </div>
+    </section>
+    <section id="contact" class="contact-sec">
+        <div class="container">
+            <h2 class="heading heading--level-2 text--center"><a class="contact-sec__link"
+                                                                 href="mailto:paul.szyposzynski@gmail.com">Napisz do
+                mnie</a></h2>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <p class="footer__text text--center">Copyright &copy; Paweł Szyposzyński 2017</p>
+    </div>
+</footer>
+<span class="scroll-top hidden"><i class="fa fa-arrow-circle-up fa-4x" aria-hidden="true"></i></span>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
