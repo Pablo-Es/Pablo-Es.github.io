@@ -665,4 +665,23 @@ li {
     color: #ffffff;
     font-weight: 500; }
 
+.scroll-top {
+  transition: visibility 0.8s, opacity 0.8s;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  color: #000000;
+  opacity: 0.8;
+  cursor: pointer;
+  animation: scroll 1s infinite alternate; }
+  .scroll-top.hidden {
+    visibility: hidden;
+    opacity: 0; }
+
+@keyframes scroll {
+  0% {
+    bottom: 30px; }
+  100% {
+    bottom: 40px; } }
+
 /*# sourceMappingURL=style.css.map */
