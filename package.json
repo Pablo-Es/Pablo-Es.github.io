@@ -1,10 +1,31 @@
 {
   "name": "Pawel-Szyposzynski-portfolio",
   "version": "1.0.0",
+  "description": "Paweł Szyposzyński portfolio",
+  "license": "ISC",
+  "main": "main.js",
+  "scripts": {
+    "test": "exit;",
+    "prebuild": "del-cli dist -f",
+    "build": "webpack",
+    "start": "npm run build"
+  },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "del-cli": "^1.1.0",
     "grunt": "^1.0.1",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
-    "jit-grunt": "^0.10.0"
+    "jit-grunt": "^0.10.0",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "imports-loader": "^0.7.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
   }
 }

@@ -2,3 +2,4 @@
 .sass-cache/
 assets/css/*.map
 assets/images/*.psd
+node_modules/
